@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+    context: __dirname,
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'build'),
@@ -10,6 +11,7 @@ module.exports = {
     },
     devServer: {
         contentBase: "./build",
+        historyApiFallback: true,
     },
     module: {
         rules: [
