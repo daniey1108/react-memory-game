@@ -10,7 +10,7 @@ export default function Home () {
               <MaterialUi.CardHeader title="Home" />
               <MaterialUi.CardContent>
                   <MaterialUi.Typography>
-              Welcome to my home page!
+              Welcome to my home page!!!
                   </MaterialUi.Typography>
                   <MaterialUi.Typography>
               Here is a collection of various stuff, between things ive built,
